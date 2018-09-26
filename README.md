@@ -9,5 +9,6 @@ This is a sample docker container with two running services, nginx and openssh. 
 
 ### Requirements
 * All services need to be set to autostart=false
-* All services need to be defined with a priority 2-999 (1 is reserved for init.sh)
+* All services need to be defined with a unique priority 2-999 (1 is reserved for init.sh)
 * All services need to be defined in /etc/services/conf.d and end with a .conf suffix
+
